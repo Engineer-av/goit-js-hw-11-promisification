@@ -26,5 +26,3 @@ const logger = result => console.table(result);
 /*
  * Должно работать так
  */
-toggleUserState(users, "Mango").then(logger);
-toggleUserState(users, "Lux").then(logger);
